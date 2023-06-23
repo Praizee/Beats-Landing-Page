@@ -81,7 +81,9 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--title-color);
 }
 
@@ -93,7 +95,8 @@ a {
   text-decoration: none;
 }
 
-button, input {
+button,
+input {
   border: none;
   outline: none;
 }
@@ -102,7 +105,7 @@ button {
   cursor: pointer;
 }
 
-img  {
+img {
   max-width: 100%;
   height: auto;
 }
@@ -129,7 +132,8 @@ img  {
 
 /*=============== LAYOUT ===============*/
 .main {
-  overflow: hidden; /*For animation and images*/
+  overflow: hidden;
+  /*For animation and images*/
 }
 
 .container {
@@ -533,6 +537,7 @@ img  {
 .footer__copy-link {
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
+  color: var(--white-color);
 }
 
 /*=============== SCROLL UP ===============*/
